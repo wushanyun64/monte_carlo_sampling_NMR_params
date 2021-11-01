@@ -2,7 +2,7 @@
 
 After the NMR spectrum is fitted, it is often useful to get an estimation of the reliability of the fitted NMR parameters. One of the common methods is through Monte Carlo simulation. Here we present a utility function that makes use of the Markov Chain Monte Carlo (MCMC)[1] method provided by package emcee[2] to sample the posterior distribution of the fitted NMR parameters.
 
-Here we calculate the log-posterior probability $\ln p(F_{true} | D)$ :
+Here we calculate the log-posterior probability <img src="https://render.githubusercontent.com/render/math?math=\ln p(F_{true} | D)">:
 
 $\ln p(F_{true} | D) \propto \ln p(D | F_{true}) + \ln p(F_{true})$
 
